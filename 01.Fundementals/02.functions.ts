@@ -16,3 +16,17 @@ function sum(a: number, b: number): number{
 }
 
 sum(10, 20);
+
+
+//JS
+// function sumJ(a, b){
+//     return a + b;
+// }
+// sumJ(10,20,30,40) // 오류 발생 X : JS의 유연함
+
+//함수의 옵셔널 파라미터 (?)
+function log( a: string, b?: string){
+}
+
+log('hello world','hello ts');
+log('hello world');
