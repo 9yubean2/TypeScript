@@ -54,9 +54,9 @@ function showCompleted():Todo[] {
 function addTwoTodoItems(): void {
   // addTodo() 함수를 두 번 호출하여 todoItems에 새 할 일이 2개 추가되어야 합니다.
   let item1: Todo = {id: 4, title: 'item 4', done: false};
-  addTodo(item1)
+  addTodo(item1);
   let item2: Todo = {id: 5, title: 'item 5', done: false};
-  addTodo(item2)
+  addTodo(item2);
 }
 
 // NOTE: 유틸 함수
